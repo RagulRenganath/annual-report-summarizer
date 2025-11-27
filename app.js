@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     status.textContent = "Summarizing using AI...";
 
-    const backendURL = "https://YOUR-RENDER-URL.onrender.com/summarize";
+    const backendURL = "https://annual-report-summarizer.onrender.com";
 
     const response = await fetch(backendURL, {
       method: "POST",
