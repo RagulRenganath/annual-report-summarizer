@@ -7,7 +7,6 @@
 <body>
   <h1>Annual Report Summarizer</h1>
 
-  <!-- This MUST exist for app.js to work -->
   <input id="file" type="file" accept="application/pdf" />
   <button id="process">Extract & Summarize</button>
 
@@ -17,11 +16,7 @@
   <h3>Summary:</h3>
   <pre id="output"></pre>
 
-  <!-- Load pdf.js -->
   <script src="https://unpkg.com/pdfjs-dist/build/pdf.min.js"></script>
-
-  <!-- Load JavaScript AFTER HTML so elements exist -->
   <script src="app.js"></script>
 </body>
 </html>
-
